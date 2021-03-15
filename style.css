@@ -81,6 +81,7 @@ nav ul
 nav li
 {
     margin-right: 15px;
+   
 }
 
 nav a
@@ -89,6 +90,7 @@ nav a
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 #banner_image
@@ -130,6 +132,7 @@ nav a
     text-align: center;
     padding: 3px 8px 0px 8px;
     color: white;
+text-decoration:none;
 }
 
 .red_button img
@@ -236,6 +239,7 @@ header
 article p
 {
     font-size: 0.8em;
+text-align: justify;
 }
 
 
@@ -243,7 +247,7 @@ article p
 {
     position: absolute;
     top: 100px;
-    left: -20px;
+    left: -10px;
 }
 
 #tweet
@@ -257,4 +261,8 @@ article p
 #my_friends
 {
     width: 31%;
+}
+nav a:hover {
+    color: red;
+    border-bottom: 3px solid #700620;
 }
