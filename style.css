@@ -71,6 +71,7 @@ nav
     display: inline-block;
     width: 740px;
     text-align: right;
+    text-decoration:none;
 }
 
 nav ul
